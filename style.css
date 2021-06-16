@@ -1,0 +1,86 @@
+body{
+	margin:#f1f1f1;
+}
+header{
+	background-color: #8B0000;
+	padding:20px;
+	text-align: center;
+	color: white;
+	font-family: "Comic Sans Ms",Arial;
+	font-size: 25px;
+}
+
+nav{
+	overflow: hidden;
+	background-color: #333;
+
+}
+nav a{
+	float: left;
+	color:white;
+	padding: 14px 12px;
+	text-decoration: none;
+
+}
+
+.column{
+	float: left;
+	padding: 10px;
+}
+
+.column.side{
+	 width: 20%;
+}
+.column.middle{
+	width:50%;
+}
+footer{
+	clear:both;
+	background-color: #8B0000;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+div.gallary{
+	margin: 5px;
+	border: 5px solid black;
+	float: left;
+	width:200px;
+}
+div.gallary img{
+	width: 100%;
+	height: auto;
+}
+div .desc{
+	padding: 14px;
+	text-align: center;
+
+}
+input[type=text],select, text area{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color: green;
+	color: white;
+	padding: 5px;
+	cursor: pointer;
+	border: none;
+	margin: 2px;
+}
+@media screen and (max-width: 632px){
+	.column.side, .column.middle{
+	width: 100%;
+}
+
+p{
+   text-align: justify;
+}
+
+
+
+}
